@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="assets/img/favicon.ico">
 
-    <title>JavaScript Temperature Converter</title>
+    <title>CSV Analyzer</title>
 
     <!-- Bootstrap core CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet">
@@ -17,9 +17,9 @@
     <link href="assets/css/ionicons.min.css" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
 
-  <!--  <link href="global.css" rel="stylesheet" type="text/css">-->
-	<script src="tests/blanket.js"></script>
-   <script type="text/javascript" src="js/temperature.js" data-cover></script>
+  <link href="global.css" rel="stylesheet" type="text/css">
+
+
 <!-- --
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="assets/js/ie10-viewport-bug-workaround.js" data-cover></script>
@@ -29,6 +29,9 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <script type="text/javascript" src="../../underscore/underscore.js"></script>
+<script type="text/javascript" src="../../jquery/starterkit/jquery.js"></script>
+<script type="text/javascript" src="csv.js"></script>
   </head>
 
   <body>
@@ -49,23 +52,28 @@
         <tr>
             <td>
 
+              <h1>Comma Separated Value Analyzer</h1>
+                  <div>
+                    <i>Write a CSV string. Click the table button. The program outputs a table with the specified data.</i>
+                  </div>
+                  <table>
+                    <tr>
+                      <th>CSV string:</th> <!-- autofocus attribute is HTML5 -->
+                      <td><textarea autofocus cols = "80" rows = "5" id="original"></textarea></td>
+                    </tr>
+                  </table>
+                  <button type="button">table:</button><br>
+                  <span class="output" id="finaltable"></span>
 
-              <h2>Temperature converter</h2>
-              <br>
-              <br>
-              <table>
-                <tr>
-                  <th>Enter  Temperature:</th>
-                  <td><input id="original" onchange="calculate();" placeholder="Example: 32f, 45c, -2,5F"></td>
-                </tr>
-                <tr>
-                  <th>Converted Temperature:</th>
-                  <td><span class="output" id="converted"></span></td>
-                </tr>
-              </table>
-              <br><br><br>
-              <a href="http://gcpmendez.github.io/Pr1_PL_1415/tests/">Tests</a>
-            <br><br><br><br><br><br>
+
+
+
+
+
+
+
+
+          </td>
         </tr>
 
 </table>
