@@ -6,3 +6,15 @@ body
  background-color:#b0c4de;  /* blue */
  font-size:large;
 }
+
+
+#resultado:hover td { background-color: #2E9AFE; color: #003;}
+
+input                { text-align: right;  border: none; }
+textarea             { border: outset; border-color: #FFF; color: #666}                     
+table                { margin-left: auto; margin-right: auto; border: inset; color: #03F;}
+table.center         { margin-left:auto margin-right:auto; }
+#result              { border: #999 1px solid; background-color: #003; color: #09C }
+tr.error             { background-color: red; }
+button               { float: right; margin-right: 46% ;}
+
