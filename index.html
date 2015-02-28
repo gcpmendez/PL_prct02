@@ -34,6 +34,8 @@
          <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
      <script type="text/javascript" src="csv.js"></script>
+     
+     <script type="text/html"  id="tm" > <% _.each(items, function(name) { %> <td><%= name %></td>  <% }); %> </script>
   </head>
 
   <body>
@@ -63,9 +65,11 @@
                   <i>2. <b>Click</b> the button.</i><br>
                   
                   <button type="button">To table!</button><br>
+                  
+                    <i>3. The program <b>outputs a table</b> with the specified data.</i>
                   <span class="output" id="resultado"></span>
                   <br>
-                  <i>3. The program <b>outputs a table</b> with the specified data.</i>
+                
                     </center>
                 </td>
               </tr>
