@@ -11,7 +11,7 @@ body
 #resultado:hover td { background-color: #2E9AFE; color: #003;}
 
 input                { text-align: right;  border: none; }
-textarea             { border: outset; border-color: #FFF; color: #666}                     
+textarea             {  border-color: #FFF; color: #666}                     
 table                { margin-left: auto; margin-right: auto; border: inset; }
 table.center         { margin-left:auto margin-right:auto; }
 #result              { border: #999 1px solid; background-color: #003; color: #09C }
