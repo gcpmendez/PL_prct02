@@ -1,3 +1,5 @@
+
+
 // See http://en.wikipedia.org/wiki/Comma-separated_values
 "use strict"; // Use ECMAScript 5 strict mode in browsers that support it
 
@@ -55,7 +57,7 @@ function calculate() {
   r.unshift('<p>\n<table class="center" id="result">');
   r.push('</table>');
   //alert(r.join('\n')); // debug
-  finaltable.innerHTML = r.join('\n');
+  resultado.innerHTML = r.join('\n');
 }
 
 window.onload = function() {
