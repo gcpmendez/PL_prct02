@@ -1,0 +1,23 @@
+{
+  "name": "Pr2_PL_1415",
+  "version": "1.0.0",
+  "description": "coma seprated value",
+  "main": "csv.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^2.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctc87/Pr2_PL_1415"
+  },
+  "author": "German pon tus apellidos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctc87/Pr2_PL_1415/issues"
+  },
+  "homepage": "https://github.com/ctc87/Pr2_PL_1415"
+}
