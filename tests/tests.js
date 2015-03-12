@@ -38,7 +38,7 @@ suite('Comma Separated Values', function() {
   test('calculate function working on 1 value', function() {
     original.value = "32F";
     calculate();
-    assert.deepEqual(finaltable.innerHTML, '<p>\n</p><table class="center" id="result">\n<tbody><tr>                    <td>32F</td>              </tr>\n</tbody></table>');
+    assert.deepEqual(resultado.innerHTML, '<p>\n</p><table class="center" id="result">\n<tbody><tr>                    <td>32F</td>              </tr>\n</tbody></table>');
   });
   
   test('caculate function working on 3 values', function() {
