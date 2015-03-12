@@ -35,19 +35,19 @@ suite('Comma Separated Values', function() {
     if (window.localStorage) assert.deepEqual(localStorage.original, original.value);
   });
 
-  test('calculate function working on 1 value', function() {
-    original.value = "32F";
+  test('La función *calculate trabaja con un valor', function() {
+    original.value = "ABC";
     calculate();
     assert.deepEqual(finaltable.innerHTML, '<p>\n</p><table class="center" id="result">\n<tbody><tr>                    <td>32F</td>              </tr>\n</tbody></table>');
   });
   
-  test('caculate function working on 3 values', function() {
-    original.value = "32, 25, DD";
+  test('La función *calculate trabaja con diferentes valores', function() {
+    original.value = "1, 2, 3, F";
     calculate();
     assert.deepEqual(finaltable.innerHTML, '<p>\n</p><table class="center" id="result">\n<tbody><tr>                    <td>32</td>                                  <td> 25</td>                                  <td> DD</td>              </tr>\n</tbody></table>');
   });
   
-  test('caculate function working on values in different lines', function() {
+  test('La función *caculate trabaja en diferentes lineas', function() {
     original.value = "32\n25, DD";
     calculate();
     assert.deepEqual(finaltable.innerHTML, '<p>\n</p><table class="center" id="result">\n<tbody><tr>                    <td>32</td>              </tr>\n<tr class="error">                    <td>25</td>                                  <td> DD</td>              </tr>\n</tbody></table>');
