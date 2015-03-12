@@ -52,7 +52,7 @@ function calculate() {
   r.unshift('<p>\n<table class="center" id="result">');
   r.push('</table>');
   //alert(r.join('\n')); // debug
-  resultado.innerHTML = r.join('\n');
+  finaltable.innerHTML = r.join('\n');
   
   if(error == true)
     mal.innerHTML = "";
