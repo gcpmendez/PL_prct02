@@ -41,10 +41,10 @@ suite('Comma Separated Values', function() {
     assert.deepEqual(finaltable.innerHTML, '<p>\n</p><table class="center" id="result">\n<tbody><tr>                    <td>32F</td>              </tr>\n</tbody></table>');
   });
   
-  test('La función *calculate trabaja con diferentes valores', function() {
-    original.value = "1, 2, 3, A";
+  test('La función *calculate trabaja con diferentes valorea', function() {
+    original.value = "1, 2, A";
     calculate();
-    assert.deepEqual(finaltable.innerHTML, '<p>\n</p><table class="center" id="result">\n<tbody><tr>                    <td> 1</td>                                  <td> 2</td>                                  <td> 3</td>                                  <td> A</td>              </tr>\n</tbody></table>');
+    assert.deepEqual(finaltable.innerHTML, '<p>\n</p><table class="center" id="result">\n<tbody><tr>                    <td>1</td>                                  <td> 2</td>                                  <td> A</td>              </tr>\n</tbody></table>');
   });
   
   test('La función *caculate trabaja en diferentes lineas', function() {
