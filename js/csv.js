@@ -16,6 +16,11 @@ function calculate() {
   var commonLength = NaN; // la longitud de la linea ( longitud comun ) 
   var r = [];
   
+  var row = "<% _.each(items, function(name) { %>"     +
+            "                    <td><%= name %></td>" +
+            "              <% }); %>";
+            
+  
   if (typeof(Storage !== "undefined"))
     if (window.localStorage) localStorage.original  = temp;
   
@@ -42,7 +47,7 @@ function calculate() {
         result.push(removeescapedquotes);
       }
       var tr = error? '<tr class="error">' : '<tr>';
-      r.push(tr+_.template(tm.innerHTML, {items : result})+"</tr>");
+      r.push(tr+_.template(row.innerHTML, {items : result})+"</tr>");
     }
     else {
       alert("ERROR! \nAlguna de las lineas del string introducido no es valido.");
