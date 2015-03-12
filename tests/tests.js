@@ -6,14 +6,14 @@ suite('Comma Separated Values', function() {
     if (typeof __html__ !== 'undefined') {
       document.body.innerHTML = __html__['tests/index.html'];
       original = document.getElementById('original');
-      converted = document.getElementById('resultado');
+      converted = document.getElementById('converted');
     }
   });
   
   test('click button is calling calculate()', function() {
   	original.value = "25";
   	$("button").trigger("click");
-  	assert.deepEqual(resultado.innerHTML, '<p>\n</p><table class="center" id="result">\n<tbody><tr>                    <td>25</td>              </tr>\n</tbody></table>');
+  	assert.deepEqual(finaltable.innerHTML, '<p>\n</p><table class="center" id="result">\n<tbody><tr>                    <td>25</td>              </tr>\n</tbody></table>');
   });
   
   test('alert is getting showed on error', function() {
@@ -38,7 +38,7 @@ suite('Comma Separated Values', function() {
   test('calculate function working on 1 value', function() {
     original.value = "32F";
     calculate();
-    assert.deepEqual(resultado.innerHTML, '<p>\n</p><table class="center" id="result">\n<tbody><tr>                    <td>32F</td>              </tr>\n</tbody></table>');
+    assert.deepEqual(finaltable.innerHTML, '<p>\n</p><table class="center" id="result">\n<tbody><tr>                    <td>32F</td>              </tr>\n</tbody></table>');
   });
   
   test('caculate function working on 3 values', function() {
