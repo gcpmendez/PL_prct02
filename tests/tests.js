@@ -6,7 +6,7 @@ suite('Comma Separated Values', function() {
     if (typeof __html__ !== 'undefined') {
       document.body.innerHTML = __html__['tests/index.html'];
       original = document.getElementById('original');
-      converted = document.getElementById('resultado');
+      converted = document.getElementById('converted');
     }
   });
   
