@@ -48,7 +48,7 @@ suite('Comma Separated Values', function() {
   });
   
   test('La función *caculate trabaja en diferentes lineas', function() {
-    original.value = "32\n25, DD";
+    original.value = "3\n25, DD";
     calculate();
     assert.deepEqual(finaltable.innerHTML, '<p>\n</p><table class="center" id="result">\n<tbody><tr>                    <td>32</td>              </tr>\n<tr class="error">                    <td>25</td>                                  <td> DD</td>              </tr>\n</tbody></table>');
   });
