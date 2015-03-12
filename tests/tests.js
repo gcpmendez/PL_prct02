@@ -29,8 +29,8 @@ suite('Comma Separated Values', function() {
 		}
   });
   
-  test('localStorage working', function() {
-  	original.value = "25";
+  test('localStorage funcionando', function() {
+  	original.value = "A";
     calculate();
     if (window.localStorage) assert.deepEqual(localStorage.original, original.value);
   });
