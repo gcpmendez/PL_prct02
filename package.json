@@ -17,6 +17,12 @@
   },
   "homepage": "https://github.com/gcpmendez/Pr2_PL_1415",
   "devDependencies": {
-    "chai": "^2.1.1"
+    "chai": "^2.1.1",
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.1.7",
+    "karma-firefox-launcher": "^0.1.4",
+    "karma-mocha": "^0.1.10",
+    "karma-html2js-preprocessor": "*",
+    "mocha": "^2.2.1"
   }
 }
