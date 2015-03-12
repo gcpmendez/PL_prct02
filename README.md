@@ -1,8 +1,7 @@
 # PL - 1415 - Práctica 2 + Karma + Travis
 <center>
-CSV - comma separated values
+<center>CSV - comma separated values</center>
 ---
-<h2><b>Procesadores de lenguajes</b></h2>
 <p>Práctica 2:  comma separated values</p>
 
 > Autor: Germán C. Paz Méndez.
