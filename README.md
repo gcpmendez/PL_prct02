@@ -11,18 +11,18 @@
 
 ## Uso
 
-	Utilizar CSV[1](http://gcpmendez.github.io/Pr2_PL_1415). 
-	Ver los tests[2](http://gcpmendez.github.io/Pr2_PL_1415/tests/) generados.
+Utilizar CSV[1](http://gcpmendez.github.io/Pr2_PL_1415). 
+Ver los tests[2](http://gcpmendez.github.io/Pr2_PL_1415/tests/) generados.
 
-	Nota: para probar gulp y karma simplemente deberá realizar 
-	un clone de la rama y, una vez situados en ella, ejecutar un npm install,
-	con lo que se descargará todo lo necesario para su ejecución.
+Nota: para probar gulp y karma simplemente deberá realizar 
+un clone de la rama y, una vez situados en ella, ejecutar un npm install,
+con lo que se descargará todo lo necesario para su ejecución.
 
-	Para probar gulp:
-		$ gulp test
-	
-	Para probar karma:
-		$ node_modules/karma/bin/karma start
+Para probar gulp:
+	$ gulp test
+
+Para probar karma:
+	$ node_modules/karma/bin/karma start
 
 ## Travis
 
