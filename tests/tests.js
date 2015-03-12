@@ -12,11 +12,11 @@ suite('Comma Separated Values', function() {
     }
   });
   
-  test('Button esta llamando a la función calculate()', function() {
-  	original.value = "25";
-  	$("button").trigger("click");
-  	assert.deepEqual(finaltable.innerHTML, '<p>\n</p><table class="center" id="result">\n<tbody><tr>                    <td>25</td>              </tr>\n</tbody></table>');
-  });
+//  test('Button esta llamando a la función calculate()', function() {
+//  	original.value = "25";
+//  	$("button").trigger("click");
+//  	assert.deepEqual(finaltable.innerHTML, '<p>\n</p><table class="center" id="result">\n<tbody><tr>                    <td>25</td>              </tr>\n</tbody></table>');
+//  });
   
 //  test('alert is getting showed on error', function() {
 //  	original.value = "";
