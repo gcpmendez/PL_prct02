@@ -2,7 +2,7 @@
   "name": "Pr2_PL_1415",
   "version": "0.0.1",
   "description": "CSV",
-  "main": "csv.js",
+  "main": "js/csv.js",
   "directories": {
     "test": "tests"
   },
@@ -15,6 +15,13 @@
     "type": "git",
     "url": "https://github.com/gcpmendez/Pr2_PL_1415.git"
   },
+  
+    "keywords": [
+    "csv",
+    "comma",
+    "values"
+  ],
+  
   "author": "Germán C. Paz Méndez",
   "license": "ISC",
   "bugs": {
@@ -23,7 +30,7 @@
   "homepage": "https://github.com/gcpmendez/Pr2_PL_1415",
   "devDependencies": {
     "blanket": "^1.1.6",
-    "chai": "^2.1.0",
+     "chai": "^2.1.0",
     "del": "^1.1.1",
     "gulp": "^3.8.11",
     "gulp-concat": "^2.5.2",
@@ -31,12 +38,18 @@
     "gulp-minify-css": "^0.4.6",
     "gulp-minify-html": "^1.0.0",
     "gulp-uglify": "^1.1.0",
-    "gulp-util": "^3.0.4",
+    "gulp-util": "^3.0.3",
+    "jquery": "^2.1.3",
     "karma": "^0.12.31",
     "karma-chai": "^0.1.0",
+    "karma-chrome-launcher": "^0.1.7",
     "karma-firefox-launcher": "^0.1.4",
+    "karma-jquery": "^0.1.0",
     "karma-html2js-preprocessor": "^0.1.0",
     "karma-mocha": "^0.1.10",
-    "mocha": "^2.1.0"
+    "karma-phantomjs-launcher": "^0.1.4",
+    "mocha": "^2.1.0",
+    "node-static": "^0.7.6",
+    "underscore": "^1.8.2"
   }
 }
