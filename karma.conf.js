@@ -22,12 +22,12 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'js/*',
+      "https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js",
+      "https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js",
+      'js/*.js',
       'tests/*.js',
       'tests/index.html'
     ],
-  
-   
   
 
     // list of files to exclude
