@@ -31,6 +31,7 @@ suite('Comma Separated Values', function() {
 //		}
 //  });
   
+  
   test('localStorage funcionando', function() {
   	original.value = "A";
     calculate();
