@@ -6,7 +6,7 @@ suite('CSV', function() {
         if (typeof __html__ !== 'undefined') {
             document.body.innerHTML = __html__['tests/index.html'];
             original = document.getElementById('original');
-            finaltable = document.getElementById('finaltable');
+            finaltable = document.getElementById('resultado');
         }
     });
     test('Prueba de creación de la tabla', function(){
