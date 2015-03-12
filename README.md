@@ -2,7 +2,6 @@
 <center>
 <center>CSV - comma separated values</center>
 ---
-<p>Práctica 2:  comma separated values</p>
 
 > Autor: Germán C. Paz Méndez.
 
