@@ -16,7 +16,6 @@ function calculate() {
   var commonLength = NaN; // la longitud de la linea ( longitud comun ) 
   var r = [];
   
-
   if (typeof(Storage !== "undefined"))
     if (window.localStorage) localStorage.original  = temp;
   
