@@ -10,7 +10,7 @@ suite('Comma Separated Values', function() {
     }
   });
   
-  test('click button is calling calculate()', function() {
+  test('button esta llamando a la función calculate()', function() {
   	original.value = "25";
   	$("button").trigger("click");
   	assert.deepEqual(finaltable.innerHTML, '<p>\n</p><table class="center" id="result">\n<tbody><tr>                    <td>25</td>              </tr>\n</tbody></table>');
